@@ -25,6 +25,14 @@ public class home extends HttpServlet {
             out.print("Surname<br>");
             out.print("<input type='text' name='user_surname'><br>");
             out.print("</label><br>");
+            out.print("Food<br>");
+            out.print("</label><br>");
+            out.print("<select name='food'>");
+                out.print("<option> manty 100tg </option>");
+                out.print("<option> pelmeni 200tg </option>");
+                out.print("<option> lagman 300tg </option>");
+            out.print("</select><br>");
+
             out.print("<button>Send</button><br>");
         out.print("</form>");
         out.print("</div>");

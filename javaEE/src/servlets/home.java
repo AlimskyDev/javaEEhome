@@ -18,20 +18,21 @@ public class home extends HttpServlet {
         out.print("<div>");
         out.print("<form action='/sendForm' method='get'>");
             out.print("<label>");
-            out.print("Name <br>");
-            out.print("<input type='text' name='user_name'><br>");
+
+            out.print("Full name <br>");
+            out.print("<input type='text' name='fullName'><br>");
             out.print("</label><br>");
+
             out.print("<label><br>");
-            out.print("Surname<br>");
-            out.print("<input type='text' name='user_surname'><br>");
+            out.print("Age<br>");
+            out.print("<input type='number' name='age'><br>");
             out.print("</label><br>");
-            out.print("Food<br>");
+
+            out.print("<label><br>");
+            out.print("Gender");
             out.print("</label><br>");
-            out.print("<select name='food'>");
-                out.print("<option> manty 100tg </option>");
-                out.print("<option> pelmeni 200tg </option>");
-                out.print("<option> lagman 300tg </option>");
-            out.print("</select><br>");
+            out.print("<input type='radio' name='gender' value='male'> Male <br>");
+            out.print("<input type='radio' name='gender' value='female'> Female <br>");
 
             out.print("<button>Send</button><br>");
         out.print("</form>");

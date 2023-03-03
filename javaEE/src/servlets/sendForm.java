@@ -12,21 +12,22 @@ public class sendForm extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String fullName = request.getParameter("fullName");
-        int age = Integer.parseInt(request.getParameter("age"));
-        String gender = request.getParameter("gender");
+        int points = Integer.parseInt(request.getParameter("points"));
 
-        String g = "";
-        if (gender.equals("male")) {
-            g = "Dear Mister";
-        } else if (gender.equals("female") && age<18){
-            g = "Dude miss";
-        } else if (gender.equals("female") && age>=18){
-            g = "Dude missis";
+        String point = "F";
+        if (points >= 90) {
+            point = "A";
+        } else if (points >= 75 && points <= 89){
+            point = "B";
+        } else if (points >= 60 && points <= 74){
+            point = "C";
+        } else if (points >= 50 && points <= 59) {
+            point = "D";
         }
 
         response.setContentType("text/html");
         PrintWriter out = response.getWriter();
 
-        out.print("Hello - " + g + " " + fullName);
+        out.print(fullName + " got " + point + " for exam");
     }
 }

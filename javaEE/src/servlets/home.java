@@ -24,15 +24,9 @@ public class home extends HttpServlet {
             out.print("</label><br>");
 
             out.print("<label><br>");
-            out.print("Age<br>");
-            out.print("<input type='number' name='age'><br>");
+            out.print("Exam points<br>");
+            out.print("<input type='number' name='points'><br>");
             out.print("</label><br>");
-
-            out.print("<label><br>");
-            out.print("Gender");
-            out.print("</label><br>");
-            out.print("<input type='radio' name='gender' value='male'> Male <br>");
-            out.print("<input type='radio' name='gender' value='female'> Female <br>");
 
             out.print("<button>Send</button><br>");
         out.print("</form>");

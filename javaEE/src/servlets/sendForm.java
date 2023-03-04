@@ -1,33 +1,34 @@
 package servlets;
 
+import classes.DBManager;
+import classes.Footballer;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
 
 import java.io.IOException;
 import java.io.PrintWriter;
+import java.util.ArrayList;
 
-@WebServlet(name = "sendForm", value = "/sendForm")
+@WebServlet("/sendForm")
 public class sendForm extends HttpServlet {
     @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-        String fullName = request.getParameter("fullName");
-        int points = Integer.parseInt(request.getParameter("points"));
+    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String name = request.getParameter("name");
+        String surname = request.getParameter("surname");
+        String club = request.getParameter("club");
+        int salary = Integer.parseInt(request.getParameter("salary"));
+        int price = Integer.parseInt(request.getParameter("price"));
 
-        String point = "F";
-        if (points >= 90) {
-            point = "A";
-        } else if (points >= 75 && points <= 89){
-            point = "B";
-        } else if (points >= 60 && points <= 74){
-            point = "C";
-        } else if (points >= 50 && points <= 59) {
-            point = "D";
-        }
+        Footballer footballer = new Footballer();
+        footballer.setName(name);
+        footballer.setSurname(surname);
+        footballer.setClub(club);
+        footballer.setSalary(salary);
+        footballer.setTransferPrice(price);
 
-        response.setContentType("text/html");
-        PrintWriter out = response.getWriter();
+        DBManager.addFootballer(footballer);
 
-        out.print(fullName + " got " + point + " for exam");
+        response.sendRedirect("/home");
     }
 }

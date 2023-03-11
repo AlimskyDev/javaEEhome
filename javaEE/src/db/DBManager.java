@@ -21,7 +21,6 @@ public class DBManager {
         items.add(item);
         id++;
     }
-
     public static Item getItem(Long id){
         for (Item it: items) {
             if (it.getId()==id){

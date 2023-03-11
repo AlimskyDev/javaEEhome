@@ -1,15 +1,16 @@
-package servlets;
+package kz.javaee.servlets;
 
-import db.DBUtil;
-import item.Item;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
+import kz.javee.db.DBManager;
+import kz.javee.db.Items;
 
 import java.io.IOException;
+import java.util.List;
 
 @WebServlet("/additem")
-public class AddItemServlet extends HttpServlet {
+public class addItemServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.getRequestDispatcher("/additem.jsp").forward(request, response);
@@ -18,15 +19,11 @@ public class AddItemServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String name = request.getParameter("name");
-        double price = Double.parseDouble(request.getParameter("price"));
+        int price = Integer.parseInt(request.getParameter("price"));
         int amount = Integer.parseInt(request.getParameter("amount"));
 
-        Item item = new Item();
-        item.setName(name);
-        item.setPrice(price);
-        item.setAmount(amount);
-
-        DBUtil.addItem(item);
+        Items it = new Items(null, name, price, amount);
+        DBManager.addItem(it);
 
         response.sendRedirect("/additem?success");
     }

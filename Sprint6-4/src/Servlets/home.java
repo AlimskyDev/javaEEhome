@@ -4,6 +4,7 @@ import Classes.DB.db;
 import Classes.Models.LanguageMenu;
 import Classes.Models.NewsModel;
 import Classes.Models.Page;
+import Classes.Models.User;
 import jakarta.servlet.*;
 import jakarta.servlet.http.*;
 import jakarta.servlet.annotation.*;
@@ -18,7 +19,6 @@ public class home extends HttpServlet {
         Page page = new Page();
         db.pageHome(page);
         request.setAttribute("page", page);
-        System.out.println(page);
 
         ArrayList<NewsModel> news = null;
         Cookie[] cookies = request.getCookies();
@@ -49,6 +49,13 @@ public class home extends HttpServlet {
             }
         }
             request.setAttribute("news", news);
-            request.getRequestDispatcher("/home.jsp").forward(request, response);
+
+            User user = (User) request.getSession().getAttribute("currentUser");
+            if (user!=null) {
+                request.getRequestDispatcher("/home.jsp").forward(request, response);
+            }
+            response.sendRedirect("/auth");
+
+
     }
 }

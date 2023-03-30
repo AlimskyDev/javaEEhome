@@ -3,6 +3,7 @@ package Classes.DB;
 import Classes.Models.LanguageMenu;
 import Classes.Models.NewsModel;
 import Classes.Models.Page;
+import Classes.Models.User;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -246,5 +247,25 @@ public class db {
         page.setPage("admin");
     }public static void pageHome(Page page) {
         page.setPage("home");
+    }
+
+    public static User getUser(String name) {
+        User user = null;
+        try {
+            PreparedStatement statement = connection.prepareStatement(""+
+                    "select * from users where name=? ");
+            statement.setString(1, name);
+            ResultSet resultSet = statement.executeQuery();
+            if (resultSet.next()) {
+                user = new User();
+                user.setId(resultSet.getLong("id"));
+                user.setName(resultSet.getString("name"));
+                user.setPassword(resultSet.getString("password"));
+            }
+            statement.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return user;
     }
 }

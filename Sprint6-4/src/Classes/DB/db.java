@@ -268,4 +268,31 @@ public class db {
         }
         return user;
     }
+
+    public static void addUser(User user) {
+        try {
+            PreparedStatement statement = connection.prepareStatement(""+
+                    "insert into users(name, password) "+
+                    "values (?,?)");
+            statement.setString(1, user.getName());
+            statement.setString(2, user.getPassword());
+            statement.executeUpdate();
+            statement.close();
+        } catch(Exception e) {
+            e.printStackTrace();
+        }
+    }
+    public static void changePassword(User user) {
+        try {
+            PreparedStatement statement = connection.prepareStatement(""+
+                    "update users set password = ? "+
+                    "where id = ?");
+            statement.setString(1, user.getPassword());
+            statement.setLong(2, user.getId());
+            statement.executeUpdate();
+            statement.close();
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
 }

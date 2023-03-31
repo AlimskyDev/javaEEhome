@@ -10,7 +10,6 @@
 <br>
   <div class="container-sm">
     <%
-
       NewsModel news = (NewsModel) request.getAttribute("news");
       if (news!=null) {
     %>

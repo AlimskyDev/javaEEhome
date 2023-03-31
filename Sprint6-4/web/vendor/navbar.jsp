@@ -17,6 +17,9 @@
                             <a class="nav-link" href="/admin?language=<%=language.getLanguage()%>"><%=language.getAdminPanel()%></a>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="/profile">Edit profile</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="language?language=ru&returnURL=<%=pg.getPage()%>">Ru</a>
                         </li>
                         <li class="nav-item">

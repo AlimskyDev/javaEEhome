@@ -5,6 +5,11 @@
     <%@include file="vendor/head.jsp"%>
 </head>
 <body style="display: flex; align-items: center">
+<%
+    String errorName = request.getParameter("errorName");
+    String errorPassword = request.getParameter("errorPassword");
+    String success = request.getParameter("success");
+%>
 <form action="/auth"
       method="post"
       class="shadow-lg"
@@ -13,16 +18,22 @@
       padding: 20px;
       border-radius: 5px;">
     <%
-        String errorName = request.getParameter("errorName");
+
+        if (success!=null) {
+    %>
+        <p>Registration is successfully</p>
+    <%
+        }
+    %>
+    <%
         if (errorName!=null) {
     %>
-        <p>Name not find</p>
+        <p>Name not found</p>
     <%
         }
     %>
   <input class="form-control" type="text" name="name" placeholder="insert name ..."> <br>
     <%
-        String errorPassword = request.getParameter("errorPassword");
         if (errorPassword!=null) {
     %>
     <p>Password wrong</p>
@@ -30,7 +41,10 @@
         }
     %>
   <input class="form-control" type="password" name="password" placeholder="insert password ..."> <br>
-  <button class="btn btn-primary btn-sm">Sign in</button>
+  <div class="d-flex justify-content-between">
+    <button class="btn btn-primary btn-sm">Sign in</button>
+    <a href="register" style="text-decoration: none">Sign up</a>
+  </div>
 </form>
 </body>
 </html>

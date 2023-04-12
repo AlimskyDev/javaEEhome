@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Home</title>
+    <link th:insert="~{head.html}">
+</head>
+<body class="container text-bg-dark">
+    <div th:insert="~{navbar}"></div>
+
+
+
+    <table class="table text-bg-dark">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Surname</th>
+                <th scope="col">Exam</th>
+                <th scope="col">Mark</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="student : ${students}" th:style="${student.getMark().equals('F')?'color:red':''}">
+                <td th:text="${student.getId()}"></td>
+                <td th:text="${student.getName()}"></td>
+                <td th:text="${student.getSurname()}"></td>
+                <td th:text="${student.getExam()}"></td>
+                <td th:text="${student.getMark()}"></td>
+            </tr>
+        </tbody>
+    </table>
+
+
+
+</body>
+</html>

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b689c5ad-3479-4517-8679-b2818b5e4195" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Sprint6-4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6-4/.idea/artifacts/Sprint6_4_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6-4/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6-4/.idea/libraries/jakarta_servlet_api_6_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6-4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6-4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6-4/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6-4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Sprint6-4/Sprint6-4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Training/Training.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/.idea/artifacts/final_progect_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/.idea/libraries/jakarta_servlet_api_6_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/final_progect.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/src/Classes/DB/db.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/src/Classes/Models/NewsCategoriesModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/src/Classes/Models/NewsLanguagesModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/src/Classes/Models/NewsModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/src/Classes/Models/NewsPostDateModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/src/Classes/Models/UsersModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/src/Servlets/addNewNews.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/src/Servlets/admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/src/Servlets/auth.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/src/Servlets/detail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/src/Servlets/editProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/src/Servlets/home.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/src/Servlets/language.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/src/Servlets/logout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/src/Servlets/register.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/web/WEB-INF/lib/jakarta.servlet-api-6.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/web/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/web/WEB-INF/lib/postgresql-42.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/web/admin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/web/auth.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/web/detail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/web/editProfile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/web/home.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/web/news.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/web/signup.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/web/vendor/head.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../final_progect/web/vendor/navbar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home/home.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home/src/kz/javaee/servlets/EditItemServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home/src/kz/javee/db/DBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../home/web/WEB-INF/lib/postgresql-42.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../javaEE/javaEE.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sprint2-4/sprint2-4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sprint2-4/web/WEB-INF/lib/jakarta.servlet-api-6.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sprint2-4/web/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sprint2-4/web/WEB-INF/lib/postgresql-42.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sprint2-4/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sprint4-2/sprint4-2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sprint4-2/web/WEB-INF/lib/jakarta.servlet-api-6.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sprint4-2/web/WEB-INF/lib/javax.servlet.jsp-api-2.3.3.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sprint4-2/web/WEB-INF/lib/postgresql-42.5.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sprint4-2/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/untitled1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint6-4/src/Classes/DB/db.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Sprint6-4/src/Classes/DB/db.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint6-4/web/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sprint6-4/web/WEB-INF/lib/standard-1.1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home/src/kz/javaee/servlets/DeleteServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../home/src/kz/javaee/servlets/DeleteServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home/src/kz/javaee/servlets/DetailsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../home/src/kz/javaee/servlets/DetailsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home/src/kz/javaee/servlets/HomeServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../home/src/kz/javaee/servlets/HomeServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home/src/kz/javaee/servlets/addItemServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../home/src/kz/javaee/servlets/addItemServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home/src/kz/javee/db/DBManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../home/src/kz/javee/db/DBManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home/src/kz/javee/db/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/../home/src/kz/javee/db/Items.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home/web/delete.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../home/web/delete.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home/web/details.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../home/web/details.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home/web/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../home/web/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../home/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sprint4-2/src/servlets/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sprint4-2/src/servlets/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sprint4-2/web/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../sprint4-2/web/index.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="task1-1" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2O6LW5TsUto1O9TLd7qIyS5PzH2" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showScratchesAndConsoles" value="false" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "test",
+    "last_opened_file_path": "C:/Users/user/IdeaProjects/Spring",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.General",
+    "spring.configuration.checksum": "ca4f0c08df7c0ca1997618fa63137066",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\task1-1\src\main\resources\templates" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Task11Application">
+    <configuration name="Task11Application (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="kz.g111.spring.task1-1.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kz.g111.spring.task11.Task11Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task11Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="task1-1.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="kz.g111.spring.task11.Task11Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b689c5ad-3479-4517-8679-b2818b5e4195" name="Changes" comment="" />
+      <created>1680876116684</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1680876116684</updated>
+      <workItem from="1680876117400" duration="5624000" />
+      <workItem from="1680940039101" duration="8945000" />
+      <workItem from="1681094098792" duration="7872000" />
+      <workItem from="1681127542214" duration="818000" />
+      <workItem from="1681131289102" duration="826000" />
+      <workItem from="1681135245259" duration="851000" />
+      <workItem from="1681136220695" duration="40000" />
+      <workItem from="1681136279803" duration="2494000" />
+      <workItem from="1681187771302" duration="1153000" />
+    </task>
+    <task id="LOCAL-00001" summary="task1-1">
+      <created>1680881692154</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680881692154</updated>
+    </task>
+    <task id="LOCAL-00002" summary="task1-2">
+      <created>1681128260343</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681128260343</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="task1-1" />
+    <MESSAGE value="task1-2" />
+    <option name="LAST_COMMIT_MESSAGE" value="task1-2" />
+  </component>
+</project>

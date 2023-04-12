@@ -1,0 +1,68 @@
+<nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+        <a class="navbar-brand text-bg-dark" href="#">Student List</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Переключатель навигации">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active text-bg-dark" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a style="cursor: pointer" class="nav-link text-bg-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">Add Student</a>
+                </li>
+<!--                <li class="nav-item dropdown">-->
+<!--                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
+<!--                        Выпадающий список-->
+<!--                    </a>-->
+<!--                    <ul class="dropdown-menu">-->
+<!--                        <li><a class="dropdown-item" href="#"></a></li>-->
+<!--                        <li><a class="dropdown-item" href="#"></a></li>-->
+<!--                        <li><hr class="dropdown-divider"></li>-->
+<!--                        <li><a class="dropdown-item" href="#"></a></li>-->
+<!--                    </ul>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link disabled">Отключенная</a>-->
+<!--                </li>-->
+            </ul>
+<!--            <form class="d-flex" role="search">-->
+<!--                <input class="form-control me-2" type="search" placeholder="Поиск" aria-label="Поиск">-->
+<!--                <button class="btn btn-outline-success" type="submit"></button>-->
+<!--            </form>-->
+        </div>
+    </div>
+</nav>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content text-bg-dark">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Adding student</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form th:action="${'/addStudent'}" method="post">
+                <div class="modal-body">
+                        <div class="form-group">
+                            <label>Name</label>
+                            <input required name="name" class="form-control text-bg-dark">
+                        </div>
+                        <div class="form-group">
+                            <label>Surname</label>
+                            <input required name="surname" class="form-control text-bg-dark">
+                        </div>
+                        <div class="form-group">
+                            <label>Exam</label>
+                            <input required name="exam" class="form-control text-bg-dark">
+                        </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Add student</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
